@@ -1,0 +1,24 @@
+#!/usr/bin/env perl
+# PODNAME: gettytv
+# ABSTRACT: 
+
+=head1 SYNOPSIS
+
+=head1 SUPPORT
+
+Repository
+
+  http://github.com/Getty/p5-app-gettytv
+  Pull request and additional contributors are welcome
+ 
+Issue Tracker
+
+  http://github.com/Getty/p5-app-gettytv/issues
+
+=cut
+
+use strict;
+use warnings;
+use App::GettyTV;
+
+App::GettyTV->new_with_options->run;
